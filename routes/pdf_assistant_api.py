@@ -1,11 +1,11 @@
 import os
+import PyPDF2
 import tempfile
 from typing import List
+from dotenv import load_dotenv
 from fastapi import HTTPException
 import google.generativeai as genai
-import PyPDF2
 from gtts import gTTS  # Google Text-to-Speech
-from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()

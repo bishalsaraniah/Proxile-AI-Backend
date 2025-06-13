@@ -16,7 +16,7 @@ def get_summary(text):
     #Tokenization
     text_splitter = TokenTextSplitter(
     chunk_size=1000, 
-    chunk_overlap=10
+    chunk_overlap=50
     )
     
     chunks = text_splitter.create_documents([text])

@@ -25,3 +25,4 @@ SpeechRecognition
 google-generativeai
 frontend
 PyPdf2
+youtube_transcript_api
